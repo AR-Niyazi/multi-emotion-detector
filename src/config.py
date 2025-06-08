@@ -8,5 +8,5 @@ MAX_LEN = 128
 BATCH_SIZE = 16
 EPOCHS = 3
 LR = 2e-5
-NUM_LABELS = 6
+NUM_LABELS = 5 # because of 5 emotion labels in the dataset
 SEED = 42
