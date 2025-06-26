@@ -27,6 +27,8 @@ OUTPUT_PATHS = {
     'results_path': 'outputs/results.json'
 }
 
+MODEL_PATH = "outputs/bert_model/"
+
 # DATA_PATH = "../data/raw/track-a.csv"
 # PROCESSED_PATH = "data/processed/"
 # MODEL_SAVE_PATH = "outputs/models/bert_emotion.pt"
