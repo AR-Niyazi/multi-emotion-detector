@@ -4,7 +4,9 @@ from config import MODEL_PATH
 import pandas as pd
 import torch
 from sklearn.model_selection import train_test_split
-from transformers import BertTokenizer, Trainer, TrainingArguments
+from transformers import Trainer, TrainingArguments
+import inspect
+print("⚠️ TrainingArguments loaded from:", inspect.getfile(TrainingArguments))
 from torch.utils.data import Dataset
 import numpy as np
 import os

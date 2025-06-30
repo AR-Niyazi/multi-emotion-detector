@@ -1,8 +1,7 @@
-torch
-transformers
-scikit-learn
+transformers==4.53.0
+torch>=2.0
 pandas
-matplotlib
-seaborn
+scikit-learn
+numpy
 tqdm
-jupyter
+
